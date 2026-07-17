@@ -1,6 +1,6 @@
 # Rapid ERP — Privacy Policy
 
-The public privacy policy for the **Rapid ERP** Android app (`com.rapiderp.app`),
+The public privacy policy for the **Rapid ERP** Android app (`com.codixlanka.rapiderp`),
 required by the Google Play Console.
 
 `index.html` is a self-contained static page — no build step, no external assets.
