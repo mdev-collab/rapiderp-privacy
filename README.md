@@ -17,15 +17,18 @@ and runs `npm start` to serve this directory on `$PORT`. Add a public domain in
 `https://<user>.github.io/rapiderp-privacy/`. Nothing else needed — `package.json`
 is ignored by Pages.
 
-## Before publishing
+## Where the URL goes
 
-Fill in these placeholders in `index.html`:
+**Play Console → App content → Privacy policy.** It must stay reachable for as
+long as the app is listed — if it goes dark, Google can flag the listing.
 
-| Placeholder | What goes there |
-| --- | --- |
-| `[YOUR LEGAL NAME OR COMPANY]` | Your name or registered business name |
-| `[YOUR-CONTACT-EMAIL]` | A monitored address — Google requires a working privacy contact |
-| `[COUNTRY]` | The country your business operates from |
+## Keeping it accurate
 
-Whichever URL you end up with goes into **Play Console → App content → Privacy policy**.
-It must stay reachable for as long as the app is listed.
+The policy describes what the app actually collects. If any of these change,
+update `index.html` to match — and re-check the **Data safety** form in the
+Play Console, which must agree with this page:
+
+- Google sign-in data (name, email, avatar URL)
+- Session / install analytics events
+- Expo push tokens
+- Business data staying on-device only
